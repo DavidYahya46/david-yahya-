@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.cont{
+    background-color: black;
+    margin-top: -20px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/k.avif);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.h{
+    text-align: center !important;
+    font-family: arial;
+   background-color: transparent !important;
+   margin-top: 20px;
+   color: transparent !important;
+   background-clip: text;
+   -webkit-text-stroke-color: white;
+   -webkit-text-stroke-width: 1px;
+   -webkit-background-clip: text;
+}
+span{
+    color: black;
+}
+nav{
+    display: flex;
+    
+}
+.logo{
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 10px;
+    color:black;
+    
+}
+.logo span{
+    font-size: 30px;
+    line-height: 1px;
+    margin-top: -2px;
+    font-style:normal;
+    color: black;
+}
+ul{
+    float: left;
+    margin-left: 300px;
+    display: flex;
+
+}
+.box{
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+}
+ul li{
+    margin-left: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    cursor: pointer;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    transition: 0.3s;
+    margin-bottom: -5px;
+}
+ul li a:hover{
+    color: red;
+}
+.active{
+    color: red;
+}
+.form{
+    height: 450px;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.267);
+    backdrop-filter: blur(9px);
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 400px;
+}
+.form h2{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: transparent;
+    margin-top: 20px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+}
+::placeholder{
+    color: white;
+}
+.form button{
+    margin-top: 20px;
+    width: 90px;
+    padding: 8px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+input{
+    width: 300px;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: red;
+    padding: 10px;
+    margin-top: 20px;
+}
+.form a{
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.form a:hover{
+    color: red;
+}
+.form p{
+    font-size: 18px;
+    font-family: arial;
+    margin-top: 20px;
+    color:aliceblue
+}
